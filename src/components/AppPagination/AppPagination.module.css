@@ -1,0 +1,9 @@
+.paginationContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    height: 100px;
+    background: rgba(192, 192, 192, 0.4);
+}

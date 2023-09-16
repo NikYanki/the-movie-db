@@ -1,0 +1,25 @@
+.movieCardContainer {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.link{
+    text-decoration: none;
+    color: rgba(1, 23, 32, 0.96);
+    background: rgba(5, 116, 5, 0.73);
+    border-radius: 5px;
+    font-family: "Bodoni Bd BT";
+    font-size: 20px;
+}
+#cardInfo{
+    width: 300px;
+    background: rgba(190, 239, 190, 0.73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

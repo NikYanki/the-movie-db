@@ -1,0 +1,19 @@
+.searchContainer{
+    margin: auto;
+}
+.answer{
+    position: absolute;
+    background: snow;
+    max-height: 125px;
+    overflow-y: scroll
+}
+.movieName{
+    color: #4caf50;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+}
+.movieName:hover{
+    background: #cccccc;
+}

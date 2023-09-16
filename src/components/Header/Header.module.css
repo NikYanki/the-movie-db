@@ -1,0 +1,58 @@
+.movieBar button{
+    background: none;
+    color: #4caf50;
+    border: none;
+    font-size: 26px;
+    margin: 10px;
+
+}
+.movieBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(24, 25, 24, 0.78);
+}
+.movieBar button:hover{
+    background: aliceblue;
+    border-radius: 5px;
+}
+#divMainLogo{
+    min-width: 800px;
+    height: 150px;
+    background-image: url("../../logo/mainLogo.png");
+    background-size: cover;
+    margin: 10px;
+    display: flex;
+}
+.functionButtons button{
+    background: none;
+    border: none;
+    border-radius: 30%;
+    font-size: 22px;
+    color: #4caf50;
+    margin-right: 10px;
+
+}
+.functionButtons{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0;
+
+}
+#headerContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(136, 136, 136, 0.44);
+}
+#functional{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+#functional button:hover {
+    background: aliceblue;
+    border-radius: 5px;
+}

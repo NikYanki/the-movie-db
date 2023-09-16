@@ -1,0 +1,65 @@
+.flex {
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-evenly;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+
+}
+.MovieDetailsContainer p {
+    font-size: 23px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+}
+.MovieDetailsContainer{
+    margin: auto;
+    position: relative;
+    width: 90%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.movieDetailsContainerBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-size:cover ;
+    opacity: 0.2;
+    z-index: -1;
+
+}
+
+.poster img {
+    display: block;
+    width: 280px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px black;
+}
+.releaseDate {
+    margin-top: 110px;
+}
+.flexInfo {
+    width: 400px;
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    padding: 2px 0;
+}
+.bold {
+    font-weight: 500;
+}
+.overview {
+    width: 100%;
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+
+}
+.overview p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}

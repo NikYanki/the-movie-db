@@ -1,0 +1,3 @@
+const accessToken: string = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMjdlZDgxMzJjYjAxMGZhODViY2E5MjlhYzViMDBjNCIsInN1YiI6IjYyOTM1MjE3NzZlZWNmNTkwY2EyYjFmMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.V9EqbyY12YW-6vb7WID5kt9d1_SQDDiGrZ1yrgz7x0c";
+
+export {accessToken};

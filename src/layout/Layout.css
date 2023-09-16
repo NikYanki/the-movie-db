@@ -1,0 +1,35 @@
+.blackTheme.layout {
+    background-image: url("https://e0.pxfuel.com/wallpapers/114/593/desktop-wallpaper-awesome-presentation-background.jpg");
+    color: #f9f9fa;
+}
+.darkNightTheme.layout {
+    background-image: url("https://i.pinimg.com/originals/ed/e0/e2/ede0e2cb7d972aa297a531db9b7ebaaf.jpg");
+    color: #c1dded;
+}
+.darkRichTheme.layout {
+    background-image: url("https://cdn.wallpapersafari.com/41/9/BqIg3p.jpg");
+    color: #f8f3d9;
+}
+.lightTheme.layout {
+    background-image: url("https://files.123freevectors.com/wp-content/original/203085-simple-blue-yellow-and-white-background.jpg");
+}
+.redTheme.layout {
+    background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/WH471_ab4df950-e17f-4eca-9dc1-5574ef6d205b_600x.jpg?v=1579884630");
+}
+.snowTheme.layout {
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-08.jpg");
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    transition: background-image 0.7s ease-in-out;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+font-family: "Copperplate Gothic Light";
+}
+.nfPage{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}

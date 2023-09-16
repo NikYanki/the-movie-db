@@ -1,0 +1,51 @@
+/* MovieCarousel.css */
+
+/* Стили для постеров фильмов */
+.movie-poster {
+    width: 90%;
+    height: auto;
+    margin:  auto;
+}
+
+/* Стили для точек навигации */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.slick-dots li {
+    margin: 10px 10px;
+    list-style: none;
+    padding-bottom: 30px;
+
+
+}
+.slick-dots ul{
+    list-style: none;
+}
+
+.slick-dots li button {
+    list-style-type: none;
+    rotate:45grad;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #333;
+}
+.p_title{
+    text-align: center;
+}
+.slick-track{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
